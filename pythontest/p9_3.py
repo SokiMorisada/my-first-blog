@@ -8,6 +8,6 @@ np.random.seed(19680801)
 
 matplotlib.rcParams['axes.unicode_minus'] = False
 fig, ax = plt.subplots()
-ax.plot(10*np.random.randn(100), 10*np.random.randn(100), 'o')
+ax.plot(100*np.random.randn(100), 150*np.random.randn(100), 'o')
 ax.set_title('Using hyphen instead of Unicode minus')
 plt.show()
